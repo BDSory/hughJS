@@ -5,3 +5,4 @@
   *nice-to-have: either just send NEW user info since last post OR color code new to distinguish from old.
 *5. extra: create 3 docker containers, 1 for each service.
 *6. Kubernetes deployment descriptors and deploy the containers to Kubernetes.
+
