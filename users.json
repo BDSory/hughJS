@@ -6,5 +6,34 @@
     "email": "test1@test.com",
     "password": "asdf",
     "id": "be037a8d"
+  },
+  {
+    "email": "test2@test.com",
+    "password": "qwer",
+    "id": "80297423"
+  },
+  {
+    "email": "test3@test.com",
+    "password": "qwer",
+    "fName": "Reggie",
+    "lName": "McGill",
+    "dateOfBirth": "55",
+    "id": "a19dc319"
+  },
+  {
+    "email": "test4@test.com",
+    "password": "cb7fb52f2cac470e65b962bf7790f217a694aa263b3f8fababe11b80a7cb49c0d97a096b5a401996fc20eeee8b22b03b0661f118586513712523129da777a18d.c91e9abbcde08277",
+    "fName": "",
+    "lName": "",
+    "dateOfBirth": "",
+    "id": "1b0c9a68"
+  },
+  {
+    "email": "test5@test.com",
+    "password": "c79d9f068f55eb0d3d7cf95ce6b5fe9fe9e52a458fc03d3cbaecd16191bb10afe5a3e577925017181ac784b425dffe14a772ca0a857069e78eefd6537f291471.c5733ae5c2fee0d0",
+    "fName": "",
+    "lName": "",
+    "dateOfBirth": "",
+    "id": "187c2d59"
   }
 ]

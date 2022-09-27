@@ -39,7 +39,7 @@ app.post('/signup', async (req, res) => {
     return res.send('Passwords must match')
   }
 
-  const user = await usersRepo.create({email, password})
+  const user = await usersRepo.create({email, password, fName, lName, dateOfBirth})
 
   req.session.userId = user.id; 
 
