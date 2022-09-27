@@ -1,4 +1,4 @@
-1. deploy web interface that accepts: userEmail, fName, lName, DOB & UID {programmer assign, not known to user}.
+{complete} 1. deploy web interface that accepts: userEmail, fName, lName, DOB & UID {programmer assign, not known to user}. 
 2. persist user info to db
 3. create batch job to run 5 min after every hour that grabs all user info
 4. send (post) to a different web interface.
