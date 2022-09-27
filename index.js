@@ -13,6 +13,8 @@ app.get('/', (req, res) => {
         <input name = "fName" placeholder="fName" />
         <input name = "lName" placeholder="lName" />
         <input name = "dateOfBirth" placeholder="dateOfBirth" />
+        <input name = "password" placeholder="password" />
+        <input name = "passwordConfirmation" placeholder="passwordConfirmation" />
         <button> Sign Up </button>
       </form>
     </div>
