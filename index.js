@@ -11,9 +11,16 @@ app.use(cookieSession({
 }))
 
 app.get('/signup', (req, res) => {
+  session_id = ""
+  if (req.session.userId != null) {
+    session_id = req.session.userId
+  } else
+  {
+    session_id = ""
+  }
   res.send(`
     <div>
-      ${req.session.userId}
+    ${session_id}
       <form method = "POST">
         <input name = "email" placeholder="email" />
         <input name = "fName" placeholder="fName" />
@@ -87,5 +94,5 @@ app.post('/signin', async (req, res) => {
 })
 
 app.listen(3000, () => {
-  console.log('Listening....')
+  console.log('Listening on Port 3000 http://localhost:3000/signup ....')
 })
