@@ -43,5 +43,13 @@
     "lName": "",
     "dateOfBirth": "",
     "id": "f89449f2"
+  },
+  {
+    "email": "hugh@hughbrien.com",
+    "password": "12d85608cb73d800414d412e3a398d7f4e6a08c1c15dd7981973dda19ab068423a5097849391551b9fea2c6da66358cd09b5a12d6424fc53124f800048b5ad0a.2243201a1c40abb6",
+    "fName": "Hugh",
+    "lName": "Brien",
+    "dateOfBirth": "10/12/1966",
+    "id": "c0403101"
   }
 ]
